@@ -14,14 +14,16 @@ html {
 	margin: 0;
 }
 .bgimg {
-	background-image: url('/images/gradient.jpg');
-	height: 100%;
-	background-position: center;
-	background-size: cover;
-	position: relative;
-	color: white;
-	font-family: "Courier New", Courier, monospace;
-	font-size: 25px;
+    background-image: url(/images/gradient.jpg);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-family: "Courier New",Courier,monospace;
+    font-size: 25px;
+    background: rgb(255,211,210);
+    background: linear-gradient(rgba(255,211,210,1) 0%, rgba(246,111,142,1) 23%, rgba(128,160,233,1) 100%);
 }
 .topleft {
 	position: absolute;
