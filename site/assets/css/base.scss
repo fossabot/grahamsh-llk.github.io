@@ -20,7 +20,7 @@ html {
 	background-size: cover;
 	position: relative;
 	color: white;
-	font-family: "Courier New",Courier,monospace;
+	font-family: "Roboto Mono",monospace;
 	font-size: 25px;
 	background: linear-gradient(-100deg, rgba(255,211,210,1) 0%, rgba(246,111,142,1) 23%, rgba(128,160,233,1) 100%);
 }
@@ -45,3 +45,4 @@ hr {
 	margin: auto;
 	width: 40%;
 }
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
