@@ -1,2 +1,37 @@
-<link rel="stylesheet" href="assets/css/base.css">
+<!-- Title and Meta -->
 
+<title>{% if page.title != "Index" %}{{ page.title }} - {% endif %}GrahamSH-LLK</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="description" content="{{ page.description }}" />
+<meta name="author" content="" />
+<link rel="icon" href="/assets/images/icon.png">
+
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://scratchaddons.com{{ page.url }}">
+<meta property="og:title" content='{% if page.title != "Index" %}{{ page.title }} - {% else %}GrahamSH-LLK{% endif %}' />
+<meta property="og:description" content="{{ page.description }}">
+<meta property="og:site_name" content="GrahamSH-LLK" />
+<meta property="og:locale" content="en_US" />
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:url" content="https://grahamsh-llk.github.io{{ page.url }}" />
+<meta name="twitter:title" content='{% if page.title != "Index" %}{{ page.title }} - {% endif %}GrahamSH-LLK' />
+<meta name="twitter:description" content="{{ page.description }}" />
+
+<!-- Require Script and Loading Page -->
+
+<link rel="stylesheet" href="/assets/css/base.css" />
+
+
+
+{% unless page.no-analytics %}
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MM3W8KX6FZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MM3W8KX6FZ');
+</script>
+{% endunless %}
