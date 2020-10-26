@@ -15,16 +15,25 @@ html {
 	height: 100%;
 	margin: 0;
 }
+
+element.style {
+}
+.bgimg {
+	-webkit-animation: AnimationName 30s ease infinite;
+	-moz-animation: AnimationName 30s ease infinite;
+	animation: AnimationName 30s ease infinite;
+	background-size: 800% 800%;
+}
 .bgimg {
 	background-image: url(/images/gradient.jpg);
-	height: 100%;
+	height: 50%;
 	background-position: center;
 	background-size: cover;
 	position: relative;
 	color: white;
 	font-family: "Roboto Mono",monospace;
 	font-size: 25px;
-	background: linear-gradient(-100deg, rgba(255,211,210,1) 0%, rgba(246,111,142,1) 23%, rgba(128,160,233,1) 100%);
+	background: linear-gradient(-100deg, #ffd3d2 0%,#80a0e9 10%,#f66f8e 23%,#80a0e9 100%);
 }
 .topleft {
 	position: absolute;
