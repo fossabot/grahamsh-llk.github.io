@@ -10,12 +10,8 @@ markdown: kramdown
 plugins:
 - jekyll-autoprefixer
 - jekyll-minifier
-<<<<<<< HEAD
 - jekyll-last-modified-at
-
-=======
->>>>>>> parent of 3498e1b... Update _config.yml
-
+- jekyll-sitemap
 autoprefixer:
   browsers:
   - ">= 1%"
