@@ -10,7 +10,6 @@ markdown: kramdown
 plugins:
 - jekyll-autoprefixer
 - jekyll-minifier
-- jekyll-sitemap
 
 autoprefixer:
   browsers:
