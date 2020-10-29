@@ -6,6 +6,7 @@ group :jekyll_plugins do
   gem 'jekyll-minifier'
   gem 'jekyll-sitemap'
   gem 'jekyll-last-modified-at'
+  gem 'jekyll-admin'
 end
 platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo", "~> 1.2"
