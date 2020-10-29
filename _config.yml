@@ -10,6 +10,8 @@ markdown: kramdown
 plugins:
 - jekyll-autoprefixer
 - jekyll-minifier
+- jekyll-last-modified-at
+
 
 autoprefixer:
   browsers:
