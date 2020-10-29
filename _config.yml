@@ -12,7 +12,6 @@ plugins:
 - jekyll-minifier
 - jekyll-last-modified-at
 - jekyll-sitemap
-- jekyll-admin
 autoprefixer:
   browsers:
   - ">= 1%"
