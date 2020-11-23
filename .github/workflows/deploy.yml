@@ -31,4 +31,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
           force_orphan: true
-          cname: grahamsh.rf.gd
+          cname: home.grahamsh.rf.gd
