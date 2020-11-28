@@ -7,9 +7,11 @@ title: Blog
 <div class="container">
 <ul>
   {% for post in site.posts %}
-  <li>
-    <h2><a href="{{ post.url | remove: ".html"}}">{{ post.title }}</a></h2>
+  <li class="card">
+    <div class="card-body">
+    <h2 class="card-title"><a href="{{ post.url | remove: ".html"}}">{{ post.title }}</a></h2>
     {{ post.excerpt }}
+    </div>
   </li>
   {% endfor %}
 </ul>
