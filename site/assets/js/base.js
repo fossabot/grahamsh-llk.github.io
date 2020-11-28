@@ -1,4 +1,3 @@
-
 const waitForElement = (selector) => {
   return new Promise((resolve) => {
     if (document.querySelector(selector)) {
@@ -44,24 +43,20 @@ waitForElement("#dark-toggle").then(() => {
 
   if (darkTheme) {
     $("meta[name=theme-color]").attr("content", "#242424");
-    toggle.innerHTML =
-      '<span class="iconify" data-icon="fa-solid:sun" data-inline="false"></span>';
+    toggle.innerHTML = '<span class="iconify" data-icon="fa-solid:sun" data-inline="false"></span>';
   } else {
     $("meta[name=theme-color]").attr("content", "#007bff");
-    toggle.innerHTML =
-      '<span class="iconify" data-icon="fa-solid:moon" data-inline="false"></span>';
+    toggle.innerHTML = '<span class="iconify" data-icon="fa-solid:moon" data-inline="false"></span>';
   }
 
   toggle.addEventListener("click", (event) => {
     updateDarkTheme();
     if (darkTheme) {
       $("meta[name=theme-color]").attr("content", "#242424");
-      toggle.innerHTML =
-        '<span class="iconify" data-icon="fa-solid:sun" data-inline="false"></span>';
+      toggle.innerHTML = '<span class="iconify" data-icon="fa-solid:sun" data-inline="false"></span>';
     } else {
       $("meta[name=theme-color]").attr("content", "#007bff");
-      toggle.innerHTML =
-        '<span class="iconify" data-icon="fa-solid:moon" data-inline="false"></span>';
+      toggle.innerHTML = '<span class="iconify" data-icon="fa-solid:moon" data-inline="false"></span>';
     }
   });
 });
