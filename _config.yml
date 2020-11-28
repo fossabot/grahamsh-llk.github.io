@@ -11,6 +11,7 @@ plugins:
 - jekyll-autoprefixer
 - jekyll-minifier
 - jekyll-last-modified-at
+- jekyll-feed
 autoprefixer:
   browsers:
   - ">= 1%"
