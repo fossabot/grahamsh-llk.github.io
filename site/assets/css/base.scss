@@ -207,9 +207,9 @@ body.dark .dark-btn-white {
 body {
   background-color: white;
   color: $bs-default-black;
-  --header-bg: #{$scratch-orange};
+  --header-bg: var(--primary);
   --header-cnt: white;
-  --intro-heading-bg: #{$scratch-orange};
+  --intro-heading-bg: var(--primary);
   --intro-heading-cnt: white;
   --footer-bg: #f5f5f5;
   --footer-cnt: #{$bs-default-black};
@@ -229,9 +229,9 @@ body.dark {
 body.extension-styled {
   background-color: $light-ext-level-1;
   color: $bs-default-black;
-  --header-bg: #{$scratch-orange};
+  --header-bg: var(--primary);
   --header-cnt: white;
-  --intro-heading-bg: #{$scratch-orange};
+  --intro-heading-bg: var(--primary);
   --intro-heading-cnt: white;
   --footer-bg: #{$light-ext-level-3};
   --footer-cnt: #{$bs-default-black};
@@ -240,7 +240,7 @@ body.extension-styled {
 body.dark.extension-styled {
   background-color: $dark-ext-level-1;
   color: white;
-  --header-bg: #{$scratch-orange};
+  --header-bg: var(--primary);
   --header-cnt: white;
   --intro-heading-bg: #{$dark-ext-level-2};
   --intro-heading-cnt: white;
@@ -300,7 +300,7 @@ body.dark {
 
   #dark-toggle {
     color: white;
-    background-color: $scratch-orange;
+    background-color: var(--primary);
   }
 }
 
