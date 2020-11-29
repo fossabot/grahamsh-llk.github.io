@@ -17,7 +17,6 @@ layout: default
       {% if page.next.url %}<a href="{{page.next.url | remove: ".html"}}"> {{page.next.title}} »</a> {% endif %}
     </div>
   </div>
-  {% if site.related_posts.size >= 1 %}
 <div>
   <h3>Related Posts</h3>
   <ul>
@@ -26,6 +25,5 @@ layout: default
   {% endfor %}
   </ul>
 </div>
-{% endif %}
 
 </div>
