@@ -12,6 +12,9 @@ plugins:
 - jekyll-minifier
 - jekyll-last-modified-at
 - jekyll-feed
+- jekyll/tagging
+- jekyll-tagging-related_posts
+
 autoprefixer:
   browsers:
   - ">= 1%"
