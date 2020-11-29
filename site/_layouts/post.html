@@ -8,19 +8,9 @@ layout: default
   <p class="mt-2">{{ page.date | date_to_string }} - {{ page.author }}</p>
 
   {{ content }}
-<div class="row">
-<div class="col text-left">
-{% if page.previous.url %}
-« {{page.previous.title}}
-{% endif %}
-</div>
+  <div class="row">
+    <div class="col text-left">{% if page.previous.url %} « {{page.previous.title}} {% endif %}</div>
 
-<div class="col text-right">
-{% if page.next.url %}
-{{page.next.title}} »
-{% endif %}
-</div>
-</div>
-
-
+    <div class="col text-right">{% if page.next.url %} {{page.next.title}} » {% endif %}</div>
+  </div>
 </div>
