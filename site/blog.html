@@ -7,7 +7,7 @@ title: Blog
 <div class="container">
 <ul>
   {% for post in site.posts %}
-  <li class="card">
+  <li class="card mt-2">
     <div class="card-body">
     <h2 class="card-title"><a href="{{ post.url | remove: ".html"}}">{{ post.title }}</a></h2>
     {{ post.excerpt }}
