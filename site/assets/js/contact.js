@@ -40,9 +40,7 @@ document.querySelector("#contact-form").onsubmit = async (event) => {
     document.querySelector("#contact-submit").disabled = false;
     document.querySelector("#contact-username").readOnly = false;
     document.querySelector("#contact-content").readOnly = false;
-
   }
-
 };
 
 window.addEventListener("load", () => document.querySelector("textarea").focus());
