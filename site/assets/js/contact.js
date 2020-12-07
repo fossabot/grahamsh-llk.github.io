@@ -1,4 +1,4 @@
-fetch("https://scratchaddons-contact.glitch.me/", { mode: "no-cors" });
+fetch("https://grahamsh-contact.glitch.me/", { mode: "no-cors" });
 const version = new URL(location.href).searchParams.get("version");
 
 const setStatus = (statusText, status) => {
@@ -28,7 +28,7 @@ document.querySelector("#contact-form").onsubmit = async (event) => {
   };
 
   try {
-    const res = await fetch("https://scratchaddons-contact.glitch.me/send", {
+    const res = await fetch("https://grahamsh-contact.glitch.me/send", {
       method: "POST",
       body: JSON.stringify(body),
     });
