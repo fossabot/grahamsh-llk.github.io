@@ -34,14 +34,15 @@ document.querySelector("#contact-form").onsubmit = async (event) => {
     });
     if (!res.ok) throw "";
     setTimeout(() => (document.querySelector("#contact-submit").disabled = false), 10000);
-    setStatus("Sent! Thanks for the contact.", "success");
+    setStatus("Sent! Thanks for the message.", "success");
   } catch (err) {
-    setStatus("Error sending contact! Try again?", "danger");
+    setStatus("Error sending message! Try again?", "danger");
     document.querySelector("#contact-submit").disabled = false;
+    document.querySelector("#contact-username").readOnly = false;
+    document.querySelector("#contact-content").readOnly = false;
+
   }
 
-  document.querySelector("#contact-username").readOnly = false;
-  document.querySelector("#contact-content").readOnly = false;
 };
 
 window.addEventListener("load", () => document.querySelector("textarea").focus());
