@@ -1,0 +1,37 @@
+---
+layout: default
+title: Contact 
+description: Contact @GrahamSH
+---
+
+<h1>Contact Me</h1>
+
+<script defer src="/assets/js/contact.js"></script>
+
+<div class="container">
+	<div class="row">
+		<div class="col-12 col-xl-9 mb-4 mb-xl-0">
+			<p>Have something to tell me?</p>
+			<hr />
+			<div id="contact-status" class="alert" role="alert" hidden></div>
+			<form id="contact-form">
+				<div class="form-group mb-3">
+					<label for="contact-username">Username</label>
+					<input type="text" class="form-control" id="contact-username" placeholder="GrahamSH-LLK" maxlength="150">
+				</div>
+				<div class="form-group">
+					<label for="contact-content">Message</label>
+					<textarea type="text" class="form-control" id="contact-content" placeholder="Write something!" maxlength="1500" minlength="2" autofocus required></textarea>
+				</div>
+				<button class="btn btn-primary" id="contact-submit">Send</a>
+			</form>	
+		</div>
+
+	</div>
+</div>
+
+<style>
+	#contact-content {
+		height: 200px
+	}
+</style>
