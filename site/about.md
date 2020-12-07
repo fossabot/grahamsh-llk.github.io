@@ -2,7 +2,8 @@
 layout: markdown
 title: About
 description: About GrahamSH-LLK
-main: About @GrahamSH
 ---
 
-## Hi
+## :wave: Hi, I'm GrahamSH-LLK
+I'm GrahamSH-LLK, Scratcher, Coder, and tech lover
+
