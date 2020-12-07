@@ -8,7 +8,6 @@ description: Contact @GrahamSH
 
 <form action="https://getform.io/f/8cf2d7d8-dc8d-4e8e-b955-ffef0907b10a" method="POST">
 
-
 <div class="form-group">
             <label for="exampleInputName">Usermame</label>
             <input type="text" name="name" class="form-control" id="exampleInputName" placeholder="Enter your name" required="required">
@@ -20,6 +19,5 @@ description: Contact @GrahamSH
           <hr>
           <hr>
           <button type="submit" class="btn btn-primary">Submit</button>
-
 
 </form>
