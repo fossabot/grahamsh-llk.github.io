@@ -15,7 +15,7 @@ description: Contact @GrahamSH
           </div>
           <div class="form-group">
             <label for="body">Message</label>
-            <textarea type="text" name="name" class="form-control" id="body" placeholder="Message" required="required">
+            <textarea type="text" name="name" class="form-control" id="body" placeholder="Message" required="required"></textarea>
             </div>
           <hr>
           <hr>
