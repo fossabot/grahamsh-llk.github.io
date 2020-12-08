@@ -14,6 +14,7 @@ plugins:
 - jekyll-feed
 - jekyll/tagging
 - jekyll-tagging-related_posts
+- jemoji
 
 autoprefixer:
   browsers:
